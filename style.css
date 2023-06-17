@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 40% 60%;
+}
+
+.right {
+    padding: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+
+.right h2 {
+    font-size: 30px;
+}
+
+.right textarea {
+    display: block;
+    width: 100%;
+    height: 500px;
+    border: 2px solid #14213d;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    /* resize: none; */
+    max-width: 100%;
+    line-height: 2;
+    right: 0;
+    margin: 0 auto;
+}
+  
+.right .word-count {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 16px;
+}
+  
+.right .word-count span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.left .timer {
+    font-family: sans-serif;
+    display: inline-block;
+    padding: 24px 32px;
+    border-radius: 30px;
+    background: white;
+    
+}
+  
+.left .timer__part {
+    font-size: 36px;
+    font-weight: bold;
+}
+  
+.left .timer__btn {
+    width: 50px;
+    height: 50px;
+    margin-left: 16px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background: #8208e6;
+    cursor: pointer;
+}
+  
+.left .timer__btn--start {
+    background: #00b84c;
+}
+  
+.left .timer__btn--stop {
+    background: #ff0256;
+}
+
+.left textarea {
+    display: block;
+    width: 95%;
+    height: 200px;
+    border: 2px solid #14213d;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    /* resize: none; */
+    max-width: 95%;
+    line-height: 2;
+    margin: 0;
+    position: center;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.upload {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 10px; */
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.upload #display_image {
+    width: 95%;
+    height: 400px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    resize: both;
+    overflow: auto;
+    max-width: 95%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* .upload #display_image {
+    display: block;
+    width: 95%;
+    height: 200px;
+    border: 2px solid #14213d;
+    border-radius: 8px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    resize: none;
+    line-height: 2;
+    margin: 0;
+    position: center;
+}
+*/
